@@ -1,0 +1,10 @@
+<form method = "post", action="">
+    {% csrf_token %}
+    <table>
+        {{form_book_to_disp.as_table}}
+    </table>
+
+    <input type="Submit" name="Search" value="Submit" />
+
+</form>
+
